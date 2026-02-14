@@ -1,0 +1,2 @@
+# Jarvis CLI Requirements
+# No external dependencies - uses only standard library

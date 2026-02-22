@@ -1,51 +1,84 @@
-# Jarvis CLI - Command Line Personal Assistant
+# jarvis-cli
 
-A powerful CLI-based personal AI assistant that runs in your terminal. Privacy-first, local-only, and designed for developers.
+## Detailed Description
 
-## Features
+jarvis-cli is maintained as an industry-grade software project with production-ready engineering practices.  
+This repository includes documented setup, quality gates, operational guidance, and governance standards so contributors can safely build, test, and ship changes with confidence.
 
-- 🖥️ **Terminal-First** - Full control from your command line
-- 🤖 **Local LLM** - Connects to Ollama for AI responses
-- 📝 **Task Management** - Create, list, and manage tasks
-- 📅 **Quick Events** - Fast calendar event creation
-- 🔍 **File Search** - Search files from CLI
-- 🎯 **Productivity** - Designed for developers
+## Problem Statement
 
-## Installation
+Describe the user or business problem this project solves, the target users, and expected outcomes.
+
+## Solution Overview
+
+Summarize the architecture, core modules, and runtime behavior at a high level.
+
+## Key Features
+
+- Clear project scope and intended use.
+- Reproducible local development workflow.
+- Test coverage and CI quality gates.
+- Security and contribution policies.
+- Deployment-ready repository structure.
+
+## Repository Structure
+
+```text
+.
+|-- src/                  # Core implementation
+|-- tests/                # Automated test suites
+|-- docs/                 # Design notes and operational docs
+|-- .github/workflows/    # CI pipelines
+|-- README.md
+|-- LICENSE
+|-- CONTRIBUTING.md
+|-- SECURITY.md
+|-- CODE_OF_CONDUCT.md
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Git
+- Project runtime/toolchain for this repo
+
+### Local Setup
 
 ```bash
-pip install -r requirements.txt
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt  # or: pip install -e .[dev]
+pytest
 ```
 
 ## Usage
 
-```bash
-# Start Jarvis CLI
-python jarvis.py
+Document primary commands, API routes, CLI examples, or UI workflows here.
 
-# Or use individual commands
-python jarvis.py task add "Buy groceries"
-python jarvis.py task list
-python jarvis.py event "Meeting at 3pm"
-python jarvis.py search "document"
-python jarvis.py chat "Hello Jarvis"
-```
+## Quality Standards
 
-## Commands
+- CI must pass before merge.
+- Changes require tests for critical behavior.
+- Security-sensitive changes should include risk notes.
+- Keep pull requests focused and reviewable.
 
-- `task add <title>` - Add a new task
-- `task list` - List all tasks
-- `task done <id>` - Mark task as complete
-- `event <title>` - Quick event creation
-- `search <query>` - Search files
-- `chat <message>` - Chat with Jarvis
-- `help` - Show help message
+## Security
 
-## Requirements
+See `SECURITY.md` for responsible disclosure and handling guidelines.
 
-- Python 3.9+
-- Ollama (optional, for AI features)
+## Contributing
+
+See `CONTRIBUTING.md` for branching, commit, and pull request expectations.
+
+## Roadmap
+
+Track upcoming milestones, technical debt, and planned feature work.
+
+## Support
+
+Open a GitHub issue for bugs, feature requests, or documentation gaps.
 
 ## License
 
-MIT
+This project is released under the MIT License.

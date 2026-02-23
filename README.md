@@ -1,5 +1,12 @@
 # jarvis-cli
 
+Production-grade project scaffold focused on reliability, maintainability, and fast onboarding.
+
+[![CI](https://img.shields.io/github/actions/workflow/status/yksanjo/jarvis-cli/ci.yml?branch=main&label=ci)](https://github.com/yksanjo/jarvis-cli/actions)
+![License](https://img.shields.io/github/license/yksanjo/jarvis-cli)
+![Last Commit](https://img.shields.io/github/last-commit/yksanjo/jarvis-cli)
+![Repo Size](https://img.shields.io/github/repo-size/yksanjo/jarvis-cli)
+
 ## Detailed Description
 
 jarvis-cli is maintained as an industry-grade software project with production-ready engineering practices.  
